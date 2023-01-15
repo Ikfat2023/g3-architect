@@ -113,12 +113,12 @@ header {
     justify-content: center;
     gap: 146px;
     margin: auto;
-    padding: 0 240px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
 .feature-details {
-    width: 586px;
-    height: 982px;
+    margin-left: 50px;
 }
 
 .main-title {
@@ -155,22 +155,21 @@ var {
     margin-bottom: 20px;
 }
 
-.experience-btn{
+.experience-btn {
     position: relative;
-    top: -110px;
-   left: -50px;
+    top: -150px;
+    left: -70px;
     text-align: center;
     width: 258px;
     color: white;
     background: #FF900E;
-border-radius: 8px;
-font-weight: 500;
-font-size: 25px;
-padding: 45px 42px;
-margin: 0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 45px 42px;
 }
 
-.experience-btn span{
+.experience-btn span {
     font-weight: 700;
-font-size: 65px;
+    font-size: 65px;
 }
