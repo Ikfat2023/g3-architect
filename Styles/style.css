@@ -57,11 +57,11 @@ header {
 
 
 .container {
+    margin: ;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 85px 300px 130px 300px;
-
 }
 
 .feature-image {
@@ -113,8 +113,9 @@ header {
     justify-content: center;
     gap: 146px;
     margin: auto;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 130px;
 }
 
 .feature-details {
@@ -141,6 +142,7 @@ var {
 }
 
 .features-description {
+    margin-bottom: 30px;
     color: #727272;
     line-height: 26px;
 }
@@ -172,4 +174,55 @@ var {
 .experience-btn span {
     font-weight: 700;
     font-size: 65px;
+}
+
+
+.facts{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.fact-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+.fact-description{
+    line-height: 26px;
+    margin-bottom: 100px;
+    font-weight: 400;
+font-size: 16px;
+    width: 542px;
+    color: #727272;
+}
+
+.fact-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.fact{
+    padding: 45px 36px;
+    text-align: center;
+    background: white;
+    border: 1px solid #FF900E;
+border-radius: 8px;
+}
+
+.fact h1{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fact p{
+    margin: 0;
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
 }
