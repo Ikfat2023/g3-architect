@@ -1,0 +1,176 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+
+    /* <!--------------------------------------------------------
+    --------------------- header section  --------------------
+    ----------------------------------------------------------> */
+}
+
+header {
+    background: #fff1e2;
+}
+
+.header-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-title {
+    margin: auto;
+    font-weight: 700;
+    font-size: 64px;
+    width: 862px;
+    color: #131313;
+}
+
+.header-description {
+    margin: auto;
+    width: 868px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 32px 0;
+}
+
+.button {
+    background: #FF900E;
+    color: white;
+    padding: 21px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.image {
+    width: 1440px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 45px;
+}
+
+/* <!--------------------------------------------------------
+    ------------------ Quick list of feature -----------------
+    ---------------------------------------------------------> */
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 300px 130px 300px;
+
+}
+
+.feature-image {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.feature-image img {
+    width: 342px;
+    height: 342px;
+}
+
+.feature-info {
+    margin-left: 72px;
+}
+
+.feature-info-title {
+    margin: 0;
+    width: 468px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.highlight-01 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.highlight-02 {
+    color: #FF900E;
+}
+
+.feature-description {
+    width: 537px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* <!--------------------------------------------------------
+------- - Features you will love & enjoy section ---------
+---------------------------------------------------------> */
+
+.container-02 {
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    margin: auto;
+    padding: 0 240px;
+}
+
+.feature-details {
+    width: 586px;
+    height: 982px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+}
+
+var {
+    height: 106px;
+    border: 5px solid #FF900E;
+    border-radius: 8px;
+}
+
+.feature-title-main {
+    padding-left: 21px;
+    width: 468px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features-description {
+    color: #727272;
+    line-height: 26px;
+}
+
+.feature-bar {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 30px 30px 42px;
+    margin-bottom: 20px;
+}
+
+.experience-btn{
+    position: relative;
+    top: -110px;
+   left: -50px;
+    text-align: center;
+    width: 258px;
+    color: white;
+    background: #FF900E;
+border-radius: 8px;
+font-weight: 500;
+font-size: 25px;
+padding: 45px 42px;
+margin: 0;
+}
+
+.experience-btn span{
+    font-weight: 700;
+font-size: 65px;
+}
